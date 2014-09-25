@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+class ${1:this} extends Page {
+	
+	public function getCMSFields() {
+		$fields = parent::getCMSFields();
+
+
+		return $fields;
+	}
+} 
+
+class ${1:this}_Controller extends Page_Controller {
+	
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+{
+	"installed_packages":
+	[
+		"Emmet",
+		"Figlet Big ASCII Text",
+		"HTML-CSS-JS Prettify",
+		"JSHint",
+		"Print to HTML",
+		"SilverStripe",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php"
+	]
+}
