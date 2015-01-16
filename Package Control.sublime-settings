@@ -1,14 +1,26 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"Emmet",
 		"Figlet Big ASCII Text",
 		"HTML-CSS-JS Prettify",
-		"JSHint",
+		"Minifier",
+		"Open Folder",
+		"Package Control",
 		"Print to HTML",
 		"SilverStripe",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
-		"SublimeLinter-php"
+		"SublimeLinter-php",
+		"Sublimerge Pro"
 	]
 }
