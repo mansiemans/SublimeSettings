@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$gridFieldConfig = GridFieldConfig_RelationEditor::create(30);
+\$gridFieldConfig->removeComponentsByType('GridFieldAddExistingAutocompleter');
+
+\$gridField = GridField::create(
+	'${1:name}',
+	'${2:title}',
+	\$this->${3:dataobject}(),
+	\$gridFieldConfig
+);
+\$fields->addFieldToTab("${4:tab}", \$gridField);	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gridfield</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
